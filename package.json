@@ -1,0 +1,14 @@
+{
+  "name": "pacmac-prophecy-watch",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-cache": "^5.1.2",
+    "rss-parser": "^3.12.0"
+  }
+}
