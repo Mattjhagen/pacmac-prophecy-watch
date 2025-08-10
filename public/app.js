@@ -137,3 +137,7 @@ function drawStars(){
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js');
 }
+setInterval(async () => {
+  await loadNews();
+  render();
+}, 300000); // every 5 min
